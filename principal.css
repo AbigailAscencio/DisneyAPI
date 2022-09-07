@@ -1,0 +1,155 @@
+body{
+    background-color: #171C29;
+    margin: 0;
+    font-family:sans-serif;
+    color: #cacaca;
+}
+header{
+    height: 110px;
+    width: auto;
+    display: flex; 
+    background-color: #0e0b14fc;
+    position: fixed;
+    margin-top: 0px;
+    margin: 0;
+ }
+header img{
+    height: 55px;
+    width: auto;
+    margin-left: 35px;
+    margin-top: 12px;
+}
+header ul{
+    display: flex; 
+    color: #cacaca;
+    font-size: 19px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+header li{
+    list-style: none;
+    margin-left: 28px;
+}
+header ul a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header a:hover{
+    border-bottom: 4px solid;  
+}
+#r2d2{
+    margin-left: 410px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+/* slider automatico */
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 25s infinite alternate linear;
+    width: 400%;
+    margin-top: 110px;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 1410px;
+    height: 350px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    10%{margin-left: 0;}
+    20%{margin-left: -100%;}
+    30%{margin-left: -100%;}
+    40%{margin-left: -190%;}
+    50%{margin-left: -190%;}
+    60%{margin-left: -290%;}
+    70%{margin-left: -290%;}
+    80%{margin-left: -390%;}
+    90%{margin-left: -390%;}
+    95%{margin-left: -490%;}
+    100%{margin-left: -490%;}
+}
+/* Fin slider automatico */
+.universo{
+    height: 200px;
+    width: 1300px;
+    margin-left: 65px;
+}
+.universo img{
+height: 130px;
+width: 220px;
+}
+button{
+    background-color: #262b39;
+    border-radius: 10px;
+    border-color: #f6f6f653;
+    margin-left: 20px;
+}
+.disney:hover{
+   background-image: url(src/disney.gif);
+}
+.pixar:hover{
+    background-image: url(src/pixar.gif);
+ }
+ .marvel:hover{
+    background-image: url(src/marvel.gif);
+ }
+ .star:hover{
+    background-image: url(src/star.gif);
+ }
+ .national:hover{
+    background-image: url(src/national.gif);
+ }
+
+ .estrenos{
+    width: 1300px;
+    height: 250px;
+    margin-left: 65px;
+
+ }
+ .peliculas{
+    display:inline-block;
+    margin: 0;
+}
+ .estrenos img{
+    height: 170px;
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 0;
+ }
+ .estrenos a{
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 50px;
+ }
+ label{
+    margin-left: 10px;
+ }
+ .generos{
+    width: 1300px;
+    height: 250px;
+    margin-left: 65px;
+ }
+ .carousel-item {
+    display: inline;
+ }
+ .generos button{
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ .generos button:hover{
+    background-color: #cacaca;
+    color: black;
+ }
